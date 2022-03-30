@@ -1,4 +1,4 @@
-package com.oze.ozehospital.pojo;
+package com.oze.ozehospital.pojos;
 
 import lombok.Data;
 

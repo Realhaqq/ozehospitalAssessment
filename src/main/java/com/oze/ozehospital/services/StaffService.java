@@ -1,10 +1,10 @@
 package com.oze.ozehospital.services;
 
 import com.oze.ozehospital.entities.Staff;
-import com.oze.ozehospital.pojo.ApiResponse;
-import com.oze.ozehospital.pojo.StaffAddRequest;
-import com.oze.ozehospital.pojo.StaffUpdateRequest;
-import com.oze.ozehospital.repository.StaffRepository;
+import com.oze.ozehospital.pojos.ApiResponse;
+import com.oze.ozehospital.pojos.StaffAddRequest;
+import com.oze.ozehospital.pojos.StaffUpdateRequest;
+import com.oze.ozehospital.repositories.StaffRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;

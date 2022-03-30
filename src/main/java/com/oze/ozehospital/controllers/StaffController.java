@@ -1,11 +1,9 @@
-package com.oze.ozehospital.controller;
+package com.oze.ozehospital.controllers;
 
-import com.oze.ozehospital.pojo.StaffAddRequest;
-import com.oze.ozehospital.pojo.StaffUpdateRequest;
-import com.oze.ozehospital.repository.StaffRepository;
+import com.oze.ozehospital.pojos.StaffAddRequest;
+import com.oze.ozehospital.pojos.StaffUpdateRequest;
+import com.oze.ozehospital.repositories.StaffRepository;
 import com.oze.ozehospital.services.StaffService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -21,8 +19,6 @@ public class StaffController {
 
     @Autowired
     StaffService staffService;
-
-    private static final Logger logger = LoggerFactory.getLogger(StaffController.class);
 
     @PostMapping("/staff/add")
     public ResponseEntity<?> addStaff(@Valid @RequestBody StaffAddRequest staffAddRequest) {

@@ -1,7 +1,6 @@
-package com.oze.ozehospital.repository;
+package com.oze.ozehospital.repositories;
 
 import com.oze.ozehospital.entities.Patient;
-import com.oze.ozehospital.entities.Staff;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Date;

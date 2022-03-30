@@ -1,10 +1,8 @@
-package com.oze.ozehospital.controller;
+package com.oze.ozehospital.controllers;
 
-import com.oze.ozehospital.pojo.DeletePatientRequest;
-import com.oze.ozehospital.repository.PatientRepository;
+import com.oze.ozehospital.pojos.DeletePatientRequest;
+import com.oze.ozehospital.repositories.PatientRepository;
 import com.oze.ozehospital.services.PatientService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -20,8 +18,6 @@ public class PatientController {
     @Autowired
     PatientService patientService;
 
-    private static final Logger logger = LoggerFactory.getLogger(PatientController.class);
-
     @GetMapping("/patients/all/{uuid}")
     public ResponseEntity<?> getPatientsAll(@PathVariable String uuid) {
         return patientService.getPatients(uuid);
@@ -32,7 +28,6 @@ public class PatientController {
     public ResponseEntity<?> getPatientsAbove2Years(@PathVariable String uuid) {
         return patientService.getPatientsAbove2Years(uuid);
     }
-
 
     @DeleteMapping("/patients/{uuid}")
     public ResponseEntity<?> deletePatient(@PathVariable String uuid, @RequestBody DeletePatientRequest deletePatientRequest) {
