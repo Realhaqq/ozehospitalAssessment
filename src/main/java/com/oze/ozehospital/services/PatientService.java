@@ -46,6 +46,10 @@ public class PatientService {
     }
 
     public ResponseEntity<?> deletePatient(String uuid, Date from, Date to) {
+        if (from == null || to == null)
+            return ResponseEntity.ok(new ApiResponse(false, "Invalid dates", 404, null));
+
+
         Staff staff = staffRepository.findByUuid(uuid);
         if (staff == null)
             return ResponseEntity.ok(new ApiResponse(false, "Staff not found", 404, null));
