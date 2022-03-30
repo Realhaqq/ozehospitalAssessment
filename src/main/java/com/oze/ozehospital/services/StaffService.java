@@ -17,7 +17,6 @@ public class StaffService {
     @Autowired
     StaffRepository staffRepository;
 
-
     public ResponseEntity<?> addStaff(StaffAddRequest staffAddRequest) {
         if (staffAddRequest.getName() == null)
             return ResponseEntity.ok(new ApiResponse(false, "Staff name is required", 404, null));
@@ -35,6 +34,10 @@ public class StaffService {
         Staff staff = staffRepository.findByUuid(uuid);
         if (staff == null)
             return ResponseEntity.ok(new ApiResponse(false, "Staff not found", 404, null));
+
+
+        if (staffUpdateRequest.getName() == null)
+            return ResponseEntity.ok(new ApiResponse(false, "Staff name is required", 404, null));
 
 
         staff.setName(staffUpdateRequest.getName());
