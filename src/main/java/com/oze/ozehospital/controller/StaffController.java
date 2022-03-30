@@ -27,7 +27,7 @@ public class StaffController {
         return staffService.addStaff(staffAddRequest);
     }
 
-    @PostMapping("/staff/update/{uuid}")
+    @PutMapping("/staff/update/{uuid}")
     public ResponseEntity<?> updateStaff(@RequestBody StaffUpdateRequest staffUpdateRequest, @PathVariable String uuid) {
         return staffService.updateStaff(staffUpdateRequest, uuid);
     }

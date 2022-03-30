@@ -8,4 +8,6 @@ INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Isah Ibrah
 INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Musa', '13', NOW(), NOW());
 INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Muhd Musa', '10', NOW(), NOW());
 INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Auwal Musa', '20', NOW(), NOW());
-INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ishaq', '10', NOW(), NOW());
+INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ishaq', '10', '2022-03-28', '2022-03-28');
+INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ishaq', '10', '2022-03-27', '2022-03-27');
+INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ishaq', '10', '2022-03-29', '2022-03-29');

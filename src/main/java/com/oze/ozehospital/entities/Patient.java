@@ -27,19 +27,19 @@ public class Patient implements Serializable {
 
     @Column(updatable = false)
     @Temporal(TemporalType.TIMESTAMP)
-    private Date created_at;
+    private Date createdAt;
 
     @Temporal(TemporalType.TIMESTAMP)
-    private Date last_visit_date;
+    private Date lastVisitDate;
 
     @PrePersist
     private void setCreatedAt() {
-        created_at = new Date();
+        createdAt = new Date();
     }
 
     @PreUpdate
     private void setUpdatedAt() {
-        last_visit_date = new Date();
+        lastVisitDate = new Date();
     }
 
     public Patient() {
