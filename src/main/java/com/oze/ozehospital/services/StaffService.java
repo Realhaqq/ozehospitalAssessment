@@ -19,6 +19,9 @@ public class StaffService {
 
 
     public ResponseEntity<?> addStaff(StaffAddRequest staffAddRequest) {
+        if (staffAddRequest.getName() == null)
+            return ResponseEntity.ok(new ApiResponse(false, "Staff name is required", 404, null));
+
         String uuid = UUID.randomUUID().toString();
 
         Staff staff = new Staff();

@@ -9,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Date;
 
 @RestController
 @RequestMapping("/api/v1")
@@ -40,5 +39,9 @@ public class PatientController {
         return patientService.deletePatient(uuid, deletePatientRequest.getFromDate(), deletePatientRequest.getToDate());
     }
 
+    @GetMapping("/patients/download/{uuid}/{patientId}")
+    public ResponseEntity<?> getPatientsDownload(@PathVariable String uuid, @PathVariable Long patientId) {
+        return patientService.getPatientsDownload(uuid, patientId);
+    }
 
 }

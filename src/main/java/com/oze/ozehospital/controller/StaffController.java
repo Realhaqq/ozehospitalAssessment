@@ -10,6 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
+
 @RestController
 @RequestMapping("/api/v1")
 public class StaffController {
@@ -23,7 +25,7 @@ public class StaffController {
     private static final Logger logger = LoggerFactory.getLogger(StaffController.class);
 
     @PostMapping("/staff/add")
-    public ResponseEntity<?> addStaff(@RequestBody StaffAddRequest staffAddRequest) {
+    public ResponseEntity<?> addStaff(@Valid @RequestBody StaffAddRequest staffAddRequest) {
         return staffService.addStaff(staffAddRequest);
     }
 
