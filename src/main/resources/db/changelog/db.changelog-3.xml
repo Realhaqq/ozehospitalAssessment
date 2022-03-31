@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8" standalone="no"?>
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
     <changeSet
-            id="Task-add patients data"
-            author="test">
+            id="Task-add patients data demo"
+            author="Samiu Salihu">
         <sql>
             INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Samiu Salihu', '18', NOW(), NOW());
             INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Musa', '1', NOW(), NOW());
@@ -15,6 +15,85 @@
             INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Muhd Musa', '10', NOW(), NOW());
             INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Auwal Musa', '20', NOW(), NOW());
             INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ishaq', '10', NOW(), NOW());
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Samiu Ahmad', '18', NOW(), NOW());
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Musa', '1', NOW(), NOW());
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ismail', '2', NOW(), NOW());
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Kunle Ade', '4', NOW(), NOW());
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Usman Musa', '5', NOW(), NOW());
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ade Iyaba', '10', NOW(), NOW());
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Isah Ibrahim', '10', NOW(), NOW());
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Musa', '13', NOW(), NOW());
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Muhd Musa', '10', NOW(), NOW());
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ojo A', '20', NOW(), NOW());
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad haqq', '10', '2022-03-25 08:57:12', '2022-03-25 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Khalifa Ishaq', '10', '2022-03-24 08:57:12', '2022-03-24 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Zayyanu Ishaq', '10', '2022-03-23 08:57:12', '2022-03-23 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('John Ishaq', '10', '2022-03-22 08:57:12', '2022-03-22 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ismail', '10', '2022-03-21 08:57:12', '2022-03-21 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ishaq', '10', '2022-03-26 08:57:12', '2022-03-26 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Khalifa Ishaq', '10', '2022-03-27 08:57:12', '2022-03-27 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Zayyanu Ishaq', '10', '2022-03-28 08:57:12', '2022-03-28 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('John Is', '10', '2022-03-29 08:57:12', '2022-03-29 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ismail', '10', '2022-03-30 08:57:12', '2022-03-30 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ishaq', '10', '2022-02-25 08:57:12', '2022-02-25 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Khalifa Ishaq', '10', '2022-02-24 08:57:12', '2022-02-24 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Zayyanu Ishaq', '10', '2022-02-23 08:57:12', '2022-02-23 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('John Ishaq', '10', '2022-02-22 08:57:12', '2022-02-22 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ismail', '10', '2022-02-21 08:57:12', '2022-02-21 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ishaq', '10', '2022-02-26 08:57:12', '2022-02-26 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Khalifa Ishaq', '10', '2022-02-27 08:57:12', '2022-02-27 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Zayyanu Ishaq', '10', '2022-02-28 08:57:12', '2022-02-28 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ishaq', '10', '2022-01-25 08:57:12', '2022-01-25 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Khalifa Ishaq', '10', '2022-01-24 08:57:12', '2022-01-24 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Zayyanu Ishaq', '10', '2022-01-23 08:57:12', '2022-01-23 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('John Ishaq', '10', '2022-01-22 08:57:12', '2022-01-22 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ismail', '10', '2022-01-21 08:57:12', '2022-01-21 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ishaq', '10', '2022-01-26 08:57:12', '2022-01-26 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Khalifa Ishaq', '10', '2022-01-27 08:57:12', '2022-01-27 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Zayyanu Ishaq', '10', '2022-01-28 08:57:12', '2022-01-28 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('John Is', '10', '2022-01-29 08:57:12', '2022-01-29 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ismail', '10', '2022-01-30 08:57:12', '2022-01-30 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ishaq', '10', '2021-01-25 08:57:12', '2021-01-25 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Khalifa Ishaq', '10', '2021-01-24 08:57:12', '2021-01-24 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Zayyanu Ishaq', '10', '2021-01-23 08:57:12', '2021-01-23 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('John Ishaq', '10', '2021-01-22 08:57:12', '2021-01-22 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ismail', '10', '2021-01-21 08:57:12', '2021-01-21 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ishaq', '10', '2021-01-26 08:57:12', '2021-01-26 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Khalifa Ishaq', '10', '2021-01-27 08:57:12', '2021-01-27 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Zayyanu Ishaq', '10', '2021-01-28 08:57:12', '2021-01-28 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('John Is', '10', '2021-01-29 08:57:12', '2021-01-29 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ismail', '10', '2021-01-30 08:57:12', '2021-01-30 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ishaq', '10', '2020-01-25 08:57:12', '2020-01-25 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Khalifa Ishaq', '10', '2020-01-24 08:57:12', '2020-01-24 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Zayyanu Ishaq', '10', '2020-01-23 08:57:12', '2020-01-23 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('John Ishaq', '10', '2020-01-22 08:57:12', '2020-01-22 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ismail', '10', '2020-01-21 08:57:12', '2020-01-21 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ishaq', '10', '2020-01-26 08:57:12', '2020-01-26 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Khalifa Ishaq', '10', '2020-01-27 08:57:12', '2020-01-27 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Zayyanu Ishaq', '10', '2020-01-28 08:57:12', '2020-01-28 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('John Is', '10', '2020-01-29 08:57:12', '2020-01-29 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ismail', '10', '2020-01-30 08:57:12', '2020-01-30 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ishaq', '10', '2019-01-25 08:57:12', '2019-01-25 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Khalifa Ishaq', '10', '2019-01-24 08:57:12', '2019-01-24 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Zayyanu Ishaq', '10', '2019-01-23 08:57:12', '2019-01-23 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('John Ishaq', '10', '2019-01-22 08:57:12', '2019-01-22 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ismail', '10', '2019-01-21 08:57:12', '2019-01-21 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ishaq', '10', '2019-01-26 08:57:12', '2019-01-26 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Khalifa Ishaq', '10', '2019-01-27 08:57:12', '2019-01-27 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Zayyanu Ishaq', '10', '2019-01-28 08:57:12', '2019-01-28 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('John Is', '10', '2019-01-29 08:57:12', '2019-01-29 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ismail', '10', '2019-01-30 08:57:12', '2019-01-30 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Zayyanu Ishaq', '10', '2018-01-28 08:57:12', '2018-01-28 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('John Is', '10', '2018-01-29 08:57:12', '2018-01-29 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ismail', '10', '2018-01-30 08:57:12', '2018-01-30 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ishaq', '10', '2018-01-25 08:57:12', '2018-01-25 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Khalifa Ishaq', '10', '2018-01-24 08:57:12', '2018-01-24 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Zayyanu Ishaq', '10', '2018-01-23 08:57:12', '2018-01-23 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('John Ishaq', '10', '2018-01-22 08:57:12', '2018-01-22 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ismail', '10', '2018-01-21 08:57:12', '2018-01-21 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Ahmad Ishaq', '10', '2018-01-26 08:57:12', '2018-01-26 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Khalifa Ishaq', '10', '2018-01-27 08:57:12', '2018-01-27 08:57:12');
+            INSERT INTO patient (name, age, created_at, last_visit_date) VALUES ('Zayyanu Ishaq', '10', '2018-01-28 08:57:12', '2018-01-28 08:57:12');
             </sql>
     </changeSet>
 

@@ -8,8 +8,8 @@
                                      `id` bigint(20) NOT NULL AUTO_INCREMENT,
                                      `name` varchar(100) NOT NULL,
                                      `uuid` varchar(250) NOT NULL,
-                                     `registrationDate` timestamp DEFAULT NOW(),
-                                     `updated_at` timestamp DEFAULT NOW(),
+                                     `registrationDate` timestamp DEFAULT CURRENT_TIMESTAMP(),
+                                     `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP(),
                                      PRIMARY KEY (`id`)
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
             </sql>
