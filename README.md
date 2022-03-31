@@ -22,3 +22,12 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 ```shell
 mvn spring-boot:run
 ```
+
+## Change the Databse Configuration
+OzeHostpital uses a relational database. You can change the database configuration by editing the `application.properties` file and `liquibase.properties`.
+
+
+## PostMan Collection
+Use postman to test all the api request and response.
+
+https://go.postman.co/workspace/My-Workspace~6d625fb6-f96f-4715-8c67-cecea2890037/collection/8155479-e7a64694-2173-4b2d-a0a1-e9ad8402e3e2?action=share&creator=8155479

@@ -72,8 +72,6 @@ public class PatientService {
         if (staff == null)
             return ResponseEntity.ok(new ApiResponse(false, "Staff not found", 404, null));
 
-
-
         Optional<Patient> patient = patientRepository.findById(patientId);
 
         if (!patient.isPresent())
