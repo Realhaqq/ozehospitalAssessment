@@ -30,4 +30,4 @@ OzeHostpital uses a relational database. You can change the database configurati
 ## PostMan Collection
 Use postman to test all the api request and response.
 
-https://go.postman.co/workspace/My-Workspace~6d625fb6-f96f-4715-8c67-cecea2890037/collection/8155479-e7a64694-2173-4b2d-a0a1-e9ad8402e3e2?action=share&creator=8155479
+https://www.postman.com/lively-satellite-572983/workspace/samiu/collection/8155479-e7a64694-2173-4b2d-a0a1-e9ad8402e3e2?ctx=documentation
